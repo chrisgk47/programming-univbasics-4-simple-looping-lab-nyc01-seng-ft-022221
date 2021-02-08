@@ -20,14 +20,12 @@ def output_array(array)
     puts array[count]
     count += 1
   end
-  array
 end
 
 def return_string_array(array)
   count = 0
   while count < array.length do
-    puts array[count]
+    puts array[count].to_s
     count += 1
   end
-  array
 end
